@@ -13,42 +13,66 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#coaches_in
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#between_teams
+:between_teams rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Match ;
+               rdfs:range :Team .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#competes_in
+:competes_in rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Team ;
+             rdfs:range :Match .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#participates_in
+:participates_in rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain :Team ;
+                 rdfs:range :Championship .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/coaches_in
 :coaches_in rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :has_coach ;
             rdfs:domain :Coach ;
             rdfs:range :Team .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#has_coach
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/has_coach
 :has_coach rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdfs:domain :Team ;
            rdfs:range :Coach .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#has_player
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/has_player
 :has_player rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :plays_in ;
             rdfs:domain :Team ;
             rdfs:range :Player .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#has_referee
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/has_referee
 :has_referee rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
+             owl:inverseOf :refereed ;
              rdfs:domain :Match ;
              rdfs:range :Referee .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#plays_in
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/plays_in
 :plays_in rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain :Player ;
           rdfs:range :Team .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#refereed
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/refereed
 :refereed rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain :Referee ;
@@ -59,77 +83,112 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#age
-:age rdf:type owl:DatatypeProperty ;
-     rdfs:domain :Person ;
-     rdfs:range xsd:integer .
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#championship_country
+:championship_country rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Championship ;
+                      rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#championship
-:championship rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#championship_name
+:championship_name rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Championship ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#championship_type
+:championship_type rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Championship ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#championship_year
+:championship_year rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Championship ;
+                   rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/match_date
+:match_date rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Match ;
+            rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/match_location
+:match_location rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Match ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/match_result
+:match_result rdf:type owl:DatatypeProperty ;
               rdfs:domain :Match ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#date
-:date rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Match ;
-      rdfs:range xsd:dateTime .
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/match_title
+:match_title rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Match ;
+             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#gender
-:gender rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Person ;
-        rdfs:range xsd:string .
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/person_age
+:person_age rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Person ;
+            rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#location
-:location rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Match ;
-          rdfs:range xsd:string .
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/person_gender
+:person_gender rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Person ;
+               rdfs:range [ rdf:type rdfs:Datatype ;
+                            owl:oneOf [ rdf:type rdf:List ;
+                                        rdf:first "Female" ;
+                                        rdf:rest [ rdf:type rdf:List ;
+                                                   rdf:first "Male" ;
+                                                   rdf:rest rdf:nil
+                                                 ]
+                                      ]
+                          ] .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#name
-:name rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Person ;
-      rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#nationality
-:nationality rdf:type owl:DatatypeProperty ;
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/person_name
+:person_name rdf:type owl:DatatypeProperty ;
              rdfs:domain :Person ;
              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#result
-:result rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Match ;
-        rdfs:range xsd:string .
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/person_nationality
+:person_nationality rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Person ;
+                    rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#team_country
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/team_country
 :team_country rdf:type owl:DatatypeProperty ;
               rdfs:domain :Team ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#team_name
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/team_name
 :team_name rdf:type owl:DatatypeProperty ;
            rdfs:domain :Team ;
            rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#title
-:title rdf:type owl:DatatypeProperty ;
-       rdfs:domain :Match ;
-       rdfs:range xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Coach
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Championship
+:Championship rdf:type owl:Class ;
+              rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Coach
 :Coach rdf:type owl:Class ;
        rdfs:subClassOf :Person ,
                        [ rdf:type owl:Restriction ;
@@ -139,32 +198,41 @@
                        ] .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Match
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match
 :Match rdf:type owl:Class ;
        rdfs:subClassOf owl:Thing ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :between_teams ;
+                         owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                         owl:onClass :Team
+                       ] ,
                        [ rdf:type owl:Restriction ;
                          owl:onProperty :has_referee ;
                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                          owl:onClass :Referee
-                       ] .
+                       ] ;
+       owl:disjointWith :Person ,
+                        :Team .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Person
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Person
 :Person rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing .
+        rdfs:subClassOf owl:Thing ;
+        owl:disjointWith :Team .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Player
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Player
 :Player rdf:type owl:Class ;
         rdfs:subClassOf :Person ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty :plays_in ;
                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onClass :Team
-                        ] .
+                        ] ;
+        owl:disjointWith :Referee .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Referee
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Referee
 :Referee rdf:type owl:Class ;
          rdfs:subClassOf :Person ,
                          [ rdf:type owl:Restriction ;
@@ -173,9 +241,17 @@
                          ] .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Team
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Team
 :Team rdf:type owl:Class ;
       rdfs:subClassOf owl:Thing ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :competes_in ;
+                        owl:someValuesFrom :Match
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :participates_in ;
+                        owl:someValuesFrom :Championship
+                      ] ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :has_player ;
                         owl:minQualifiedCardinality "23"^^xsd:nonNegativeInteger ;
@@ -191,6 +267,28 @@
                         owl:maxQualifiedCardinality "30"^^xsd:nonNegativeInteger ;
                         owl:onClass :Player
                       ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Jude_Bellingham
+:Jude_Bellingham rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :person_age 20 ;
+                 :person_gender "Male" ;
+                 :person_name "Jude Bellingham" ;
+                 :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Vini_Jr
+:Vini_Jr rdf:type owl:NamedIndividual ,
+                  :Player ;
+         :person_age 23 ;
+         :person_gender "Male" ;
+         :person_name "Vini Jr" ;
+         :person_nationality "Brazilian" .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
