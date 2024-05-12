@@ -1,0 +1,5 @@
+@include <OWLMicro>.
+@prefix ont: <http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+ 
+[rule: (?per rdf:type ont:Coach) ->(?per rdf:type A) ]

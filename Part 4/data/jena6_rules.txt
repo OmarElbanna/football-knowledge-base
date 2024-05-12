@@ -1,0 +1,7 @@
+@include <OWLMicro>.
+@prefix ont: <http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+[rule1: (?per rdf:type ont:Player)  (?per ont:person_age ?age) lessThan(?age, 22)-> (?per rdf:type ont:PersonAge)]
+[rule2:(?per rdf:type ont:Coach) (?per ont:person_gender "Male")-> (?per rdf:type ont:CoachMale)]
+[rule3: (?per rdf:type ont:Player) (?per ont:person_nationality "Belgian") -> (?per rdf:type ont:BelgianPlayer)]
