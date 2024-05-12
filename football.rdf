@@ -444,6 +444,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Frank_Lampard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Frank_Lampard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Coach"/>
+        <coaches_in rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Everton"/>
+        <person_age>50</person_age>
+        <person_gender>Male</person_gender>
+        <person_name>Frank Lampard</person_name>
+        <person_nationality>English</person_nationality>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alex_Collado -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alex_Collado">
@@ -1010,7 +1023,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Everton">
         <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Team"/>
         <competes_in rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match4"/>
-        <has_coach rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Carlo_Ancelotti"/>
+        <has_coach rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Frank_Lampard"/>
         <participates_in rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Premier_League"/>
         <team_country>England</team_country>
         <team_name>Everton</team_name>
@@ -2368,6 +2381,266 @@
         <participates_in rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Premier_League"/>
         <team_country>England</team_country>
         <team_name>Watford</team_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Arsenal"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Manchester_City"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Michael_Oliver"/>
+        <match_location>Etihad</match_location>
+        <match_result>3-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brentford"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Watford"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Andre_Marriner"/>
+        <match_location>Vicarage Road</match_location>
+        <match_result>0-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Leicester_City"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Liverpool"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Anthony_Taylor"/>
+        <match_location>Anfield</match_location>
+        <match_result>2-0</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Chelsea"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Tottenham_Hotspur"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Martin_Atkinson"/>
+        <match_location>Stamford Bridge</match_location>
+        <match_result>2-2</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Everton"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Manchester_United"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Craig_Pawson"/>
+        <match_location>Old Trafford</match_location>
+        <match_result>1-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Southampton"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/West_Ham_United"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Stuart_Attwell"/>
+        <match_location>London Stadium</match_location>
+        <match_result>2-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brighton_Hove_Albion"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Newcastle_United"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/David_Coote"/>
+        <match_location>Amex Stadium</match_location>
+        <match_result>0-0</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Burnley"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Crystal_Palace"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mark_Clattenburg"/>
+        <match_location>Selhurst Park</match_location>
+        <match_result>1-2</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Fulham"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Wolverhampton_Wanderers"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Lee_Mason"/>
+        <match_location>Craven Cottage</match_location>
+        <match_result>1-0</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_30_Match9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Aston_Villa"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Leeds_United"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mike_Dean"/>
+        <match_location>Elland Road</match_location>
+        <match_result>3-2</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Chelsea"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Manchester_City"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Michael_Oliver"/>
+        <match_location>Etihad</match_location>
+        <match_result>2-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brentford"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Wolverhampton_Wanderers"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Andre_Marriner"/>
+        <match_location>Brentford Community Stadium</match_location>
+        <match_result>1-2</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Liverpool"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Manchester_United"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Anthony_Taylor"/>
+        <match_location>Anfield</match_location>
+        <match_result>3-2</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Arsenal"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Leicester_City"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Martin_Atkinson"/>
+        <match_location>Emirates Stadium</match_location>
+        <match_result>1-0</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Everton"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Tottenham_Hotspur"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Craig_Pawson"/>
+        <match_location>Tottenham Hotspur Stadium</match_location>
+        <match_result>2-2</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Newcastle_United"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/West_Ham_United"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Stuart_Attwell"/>
+        <match_location>London Stadium</match_location>
+        <match_result>4-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brighton_Hove_Albion"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Southampton"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/David_Coote"/>
+        <match_location>St Mary&apos;s Stadium</match_location>
+        <match_result>0-0</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Crystal_Palace"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Fulham"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mark_Clattenburg"/>
+        <match_location>Craven Cottage</match_location>
+        <match_result>1-1</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Leeds_United"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Watford"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Lee_Mason"/>
+        <match_location>Elland Road</match_location>
+        <match_result>3-0</match_result>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_31_Match9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Aston_Villa"/>
+        <between_teams rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Burnley"/>
+        <has_referee rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mike_Dean"/>
+        <match_location>Villa Park</match_location>
+        <match_result>2-1</match_result>
     </owl:NamedIndividual>
     
 

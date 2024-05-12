@@ -1925,5 +1925,165 @@
               :person_name "Zack Steffen" ;
               :person_nationality "American" .
 
+:Week_31_Match1 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Manchester_City ,
+                        :Chelsea ;
+         :has_referee :Michael_Oliver ;
+         :match_location "Etihad" ;
+         :match_result "2-1" .
+
+:Week_31_Match2 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Liverpool ,
+                        :Manchester_United ;
+         :has_referee :Anthony_Taylor ;
+         :match_location "Anfield" ;
+         :match_result "3-2" .
+
+:Week_31_Match3 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Arsenal ,
+                        :Leicester_City ;
+         :has_referee :Martin_Atkinson ;
+         :match_location "Emirates Stadium" ;
+         :match_result "1-0" .
+
+:Week_31_Match4 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Tottenham_Hotspur ,
+                        :Everton ;
+         :has_referee :Craig_Pawson ;
+         :match_location "Tottenham Hotspur Stadium" ;
+         :match_result "2-2" .
+
+:Week_31_Match5 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :West_Ham_United ,
+                        :Newcastle_United ;
+         :has_referee :Stuart_Attwell ;
+         :match_location "London Stadium" ;
+         :match_result "4-1" .
+
+:Week_31_Match6 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Southampton ,
+                        :Brighton_Hove_Albion ;
+         :has_referee :David_Coote ;
+         :match_location "St Mary's Stadium" ;
+         :match_result "0-0" .
+
+:Week_31_Match7 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Fulham ,
+                        :Crystal_Palace ;
+         :has_referee :Mark_Clattenburg ;
+         :match_location "Craven Cottage" ;
+         :match_result "1-1" .
+
+:Week_31_Match8 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Leeds_United ,
+                        :Watford ;
+         :has_referee :Lee_Mason ;
+         :match_location "Elland Road" ;
+         :match_result "3-0" .
+
+:Week_31_Match9 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Aston_Villa ,
+                        :Burnley ;
+         :has_referee :Mike_Dean ;
+         :match_location "Villa Park" ;
+         :match_result "2-1" .
+
+:Week_31_Match10 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Brentford ,
+                        :Wolverhampton_Wanderers ;
+         :has_referee :Andre_Marriner ;
+         :match_location "Brentford Community Stadium" ;
+         :match_result "1-2" .
+:Week_30_Match1 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Manchester_City ,
+                        :Arsenal ;
+         :has_referee :Michael_Oliver ;
+         :match_location "Etihad" ;
+         :match_result "3-1" .
+
+:Week_30_Match2 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Liverpool ,
+                        :Leicester_City ;
+         :has_referee :Anthony_Taylor ;
+         :match_location "Anfield" ;
+         :match_result "2-0" .
+
+:Week_30_Match3 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Chelsea ,
+                        :Tottenham_Hotspur ;
+         :has_referee :Martin_Atkinson ;
+         :match_location "Stamford Bridge" ;
+         :match_result "2-2" .
+
+:Week_30_Match4 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Manchester_United ,
+                        :Everton ;
+         :has_referee :Craig_Pawson ;
+         :match_location "Old Trafford" ;
+         :match_result "1-1" .
+
+:Week_30_Match5 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :West_Ham_United ,
+                        :Southampton ;
+         :has_referee :Stuart_Attwell ;
+         :match_location "London Stadium" ;
+         :match_result "2-1" .
+
+:Week_30_Match6 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Brighton_Hove_Albion ,
+                        :Newcastle_United ;
+         :has_referee :David_Coote ;
+         :match_location "Amex Stadium" ;
+         :match_result "0-0" .
+
+:Week_30_Match7 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Crystal_Palace ,
+                        :Burnley ;
+         :has_referee :Mark_Clattenburg ;
+         :match_location "Selhurst Park" ;
+         :match_result "1-2" .
+
+:Week_30_Match8 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Fulham ,
+                        :Wolverhampton_Wanderers ;
+         :has_referee :Lee_Mason ;
+         :match_location "Craven Cottage" ;
+         :match_result "1-0" .
+
+:Week_30_Match9 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Leeds_United ,
+                        :Aston_Villa ;
+         :has_referee :Mike_Dean ;
+         :match_location "Elland Road" ;
+         :match_result "3-2" .
+
+:Week_30_Match10 rdf:type owl:NamedIndividual ,
+                  :Match ;
+         :between_teams :Watford ,
+                        :Brentford ;
+         :has_referee :Andre_Marriner ;
+         :match_location "Vicarage Road" ;
+         :match_result "0-1" .
+
+
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
