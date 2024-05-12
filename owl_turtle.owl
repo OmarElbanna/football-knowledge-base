@@ -292,7 +292,17 @@
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Alex_Oxlade_Chamberlain
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alex_Collado
+:Alex_Collado rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Barcelona ;
+              :person_age 22 ;
+              :person_gender "Male" ;
+              :person_name "Alex Collado" ;
+              :person_nationality "Spanish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alex_Oxlade_Chamberlain
 :Alex_Oxlade_Chamberlain rdf:type owl:NamedIndividual ,
                                   :Player ;
                          :plays_in :Liverpool ;
@@ -302,7 +312,7 @@
                          :person_nationality "English" .
 
 
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Alisson_Becker
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alisson_Becker
 :Alisson_Becker rdf:type owl:NamedIndividual ,
                          :Player ;
                 :plays_in :Liverpool ;
@@ -310,557 +320,6 @@
                 :person_gender "Male" ;
                 :person_name "Alisson Becker" ;
                 :person_nationality "Brazilian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Andy_Robertson
-:Andy_Robertson rdf:type owl:NamedIndividual ,
-                         :Player ;
-                :plays_in :Liverpool ;
-                :person_age 28 ;
-                :person_gender "Male" ;
-                :person_name "Andy Robertson" ;
-                :person_nationality "Scottish" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Aymeric_Laporte
-:Aymeric_Laporte rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Manchester_City ;
-                 :person_age 27 ;
-                 :person_gender "Male" ;
-                 :person_name "Aymeric Laporte" ;
-                 :person_nationality "French" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Benjamin_Mendy
-:Benjamin_Mendy rdf:type owl:NamedIndividual ,
-                         :Player ;
-                :plays_in :Manchester_City ;
-                :person_age 27 ;
-                :person_gender "Male" ;
-                :person_name "Benjamin Mendy" ;
-                :person_nationality "French" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Bernardo_Silva
-:Bernardo_Silva rdf:type owl:NamedIndividual ,
-                         :Player ;
-                :plays_in :Manchester_City ;
-                :person_age 27 ;
-                :person_gender "Male" ;
-                :person_name "Bernardo Silva" ;
-                :person_nationality "Portuguese" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Caoimhin_Kelleher
-:Caoimhin_Kelleher rdf:type owl:NamedIndividual ,
-                            :Player ;
-                   :plays_in :Liverpool ;
-                   :person_age 23 ;
-                   :person_gender "Male" ;
-                   :person_name "Caoimhin Kelleher" ;
-                   :person_nationality "Irish" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Curtis_Jones
-:Curtis_Jones rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Liverpool ;
-              :person_age 20 ;
-              :person_gender "Male" ;
-              :person_name "Curtis Jones" ;
-              :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Diogo_Jota
-:Diogo_Jota rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Liverpool ;
-            :person_age 25 ;
-            :person_gender "Male" ;
-            :person_name "Diogo Jota" ;
-            :person_nationality "Portuguese" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Divock_Origi
-:Divock_Origi rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Liverpool ;
-              :person_age 26 ;
-              :person_gender "Male" ;
-              :person_name "Divock Origi" ;
-              :person_nationality "Belgian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Doku
-:Doku rdf:type owl:NamedIndividual ,
-               :Player ;
-      :plays_in :Manchester_City ;
-      :person_age 22 ;
-      :person_gender "Male" ;
-      :person_name "Doku" ;
-      :person_nationality "Belgian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Ederson
-:Ederson rdf:type owl:NamedIndividual ,
-                  :Player ;
-         :plays_in :Manchester_City ;
-         :person_age 28 ;
-         :person_gender "Male" ;
-         :person_name "Ederson" ;
-         :person_nationality "Brazilian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Fabinho
-:Fabinho rdf:type owl:NamedIndividual ,
-                  :Player ;
-         :plays_in :Liverpool ;
-         :person_age 28 ;
-         :person_gender "Male" ;
-         :person_name "Fabinho" ;
-         :person_nationality "Brazilian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Fernandinho
-:Fernandinho rdf:type owl:NamedIndividual ,
-                      :Player ;
-             :plays_in :Manchester_City ;
-             :person_age 36 ;
-             :person_gender "Male" ;
-             :person_name "Fernandinho" ;
-             :person_nationality "Brazilian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Ferran_Torres
-:Ferran_Torres rdf:type owl:NamedIndividual ,
-                        :Player ;
-               :plays_in :Manchester_City ;
-               :person_age 21 ;
-               :person_gender "Male" ;
-               :person_name "Ferran Torres" ;
-               :person_nationality "Spanish" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Gabriel_Jesus
-:Gabriel_Jesus rdf:type owl:NamedIndividual ,
-                        :Player ;
-               :plays_in :Manchester_City ;
-               :person_age 24 ;
-               :person_gender "Male" ;
-               :person_name "Gabriel Jesus" ;
-               :person_nationality "Brazilian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Harvey_Elliott
-:Harvey_Elliott rdf:type owl:NamedIndividual ,
-                         :Player ;
-                :plays_in :Liverpool ;
-                :person_age 18 ;
-                :person_gender "Male" ;
-                :person_name "Harvey Elliott" ;
-                :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Ibrahima_Konaté
-:Ibrahima_Konaté rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Liverpool ;
-                 :person_age 22 ;
-                 :person_gender "Male" ;
-                 :person_name "Ibrahima Konaté" ;
-                 :person_nationality "French" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Ilkay_Gündogan
-:Ilkay_Gündogan rdf:type owl:NamedIndividual ,
-                         :Player ;
-                :plays_in :Manchester_City ;
-                :person_age 31 ;
-                :person_gender "Male" ;
-                :person_name "Ilkay Gündogan" ;
-                :person_nationality "German" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Jack_Grealish
-:Jack_Grealish rdf:type owl:NamedIndividual ,
-                        :Player ;
-               :plays_in :Manchester_City ;
-               :person_age 26 ;
-               :person_gender "Male" ;
-               :person_name "Jack Grealish" ;
-               :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#James_Milner
-:James_Milner rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Liverpool ;
-              :person_age 36 ;
-              :person_gender "Male" ;
-              :person_name "James Milner" ;
-              :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Joe_Gomez
-:Joe_Gomez rdf:type owl:NamedIndividual ,
-                    :Player ;
-           :plays_in :Liverpool ;
-           :person_age 24 ;
-           :person_gender "Male" ;
-           :person_name "Joe Gomez" ;
-           :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Joe_Hardy
-:Joe_Hardy rdf:type owl:NamedIndividual ,
-                    :Player ;
-           :plays_in :Liverpool ;
-           :person_age 22 ;
-           :person_gender "Male" ;
-           :person_name "Joe Hardy" ;
-           :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#John_Stones
-:John_Stones rdf:type owl:NamedIndividual ,
-                      :Player ;
-             :plays_in :Manchester_City ;
-             :person_age 29 ;
-             :person_gender "Male" ;
-             :person_name "John Stones" ;
-             :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Jordan_Henderson
-:Jordan_Henderson rdf:type owl:NamedIndividual ,
-                           :Player ;
-                  :plays_in :Liverpool ;
-                  :person_age 31 ;
-                  :person_gender "Male" ;
-                  :person_name "Jordan Henderson" ;
-                  :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#João_Cancelo
-:João_Cancelo rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Manchester_City ;
-              :person_age 27 ;
-              :person_gender "Male" ;
-              :person_name "João Cancelo" ;
-              :person_nationality "Portuguese" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Jurgen_Klopp
-:Jurgen_Klopp rdf:type owl:NamedIndividual ,
-                       :Coach ;
-              :coaches_in :Liverpool ;
-              :person_age 50 ;
-              :person_gender "Male" ;
-              :person_name "Jurgen Klopp" ;
-              :person_nationality "German" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Kevin_De_Bruyne
-:Kevin_De_Bruyne rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Manchester_City ;
-                 :person_age 30 ;
-                 :person_gender "Male" ;
-                 :person_name "Kevin De Bruyne" ;
-                 :person_nationality "Belgian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Konstantinos_Tsimikas
-:Konstantinos_Tsimikas rdf:type owl:NamedIndividual ,
-                                :Player ;
-                       :plays_in :Liverpool ;
-                       :person_age 25 ;
-                       :person_gender "Male" ;
-                       :person_name "Konstantinos Tsimikas" ;
-                       :person_nationality "Greek" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Kostas_Tsimikas
-:Kostas_Tsimikas rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Liverpool ;
-                 :person_age 25 ;
-                 :person_gender "Male" ;
-                 :person_name "Kostas Tsimikas" ;
-                 :person_nationality "Greek" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Kovacic
-:Kovacic rdf:type owl:NamedIndividual ,
-                  :Player ;
-         :plays_in :Manchester_City ;
-         :person_age 28 ;
-         :person_gender "Male" ;
-         :person_name "Kovacic" ;
-         :person_nationality "Croatian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Kyle_Walker
-:Kyle_Walker rdf:type owl:NamedIndividual ,
-                      :Player ;
-             :plays_in :Manchester_City ;
-             :person_age 31 ;
-             :person_gender "Male" ;
-             :person_name "Kyle Walker" ;
-             :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Liam_Delap
-:Liam_Delap rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Manchester_City ;
-            :person_age 18 ;
-            :person_gender "Male" ;
-            :person_name "Liam Delap" ;
-            :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Liverpool
-:Liverpool rdf:type owl:NamedIndividual ,
-                    :Team ;
-           :competes_in :Week_32 ;
-           :has_coach :Jurgen_Klopp ;
-           :participates_in :Premier_League ;
-           :team_country "England" ;
-           :team_name "Liverpool" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Manchester_City
-:Manchester_City rdf:type owl:NamedIndividual ,
-                          :Team ;
-                 :competes_in :Week_32 ;
-                 :has_coach :Pep_Guardiola ;
-                 :participates_in :Premier_League ;
-                 :team_country "England" ;
-                 :team_name "Manchester City" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Michael_Oliver
-:Michael_Oliver rdf:type owl:NamedIndividual ,
-                         :Referee ;
-                :refereed :Week_32 ;
-                :person_age 39 ;
-                :person_gender "Male" ;
-                :person_name "Michael Oliver" ;
-                :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Mohamed_Salah
-:Mohamed_Salah rdf:type owl:NamedIndividual ,
-                        :Player ;
-               :plays_in :Liverpool ;
-               :person_age 29 ;
-               :person_gender "Male" ;
-               :person_name "Mohamed Salah" ;
-               :person_nationality "Egyptian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Naby_Keïta
-:Naby_Keïta rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Liverpool ;
-            :person_age 26 ;
-            :person_gender "Male" ;
-            :person_name "Naby Keïta" ;
-            :person_nationality "Guinean" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Nathan_Aké
-:Nathan_Aké rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Manchester_City ;
-            :person_age 26 ;
-            :person_gender "Male" ;
-            :person_name "Nathan Aké" ;
-            :person_nationality "Dutch" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Neco_Williams
-:Neco_Williams rdf:type owl:NamedIndividual ,
-                        :Player ;
-               :plays_in :Liverpool ;
-               :person_age 20 ;
-               :person_gender "Male" ;
-               :person_name "Neco Williams" ;
-               :person_nationality "Welsh" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Pep_Guardiola
-:Pep_Guardiola rdf:type owl:NamedIndividual ,
-                        :Coach ;
-               :coaches_in :Manchester_City ;
-               :person_age 48 ;
-               :person_gender "Male" ;
-               :person_name "Pep Guardiola" ;
-               :person_nationality "Spanish" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Phil_Foden
-:Phil_Foden rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Manchester_City ;
-            :person_age 21 ;
-            :person_gender "Male" ;
-            :person_name "Phil Foden" ;
-            :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Premier_League
-:Premier_League rdf:type owl:NamedIndividual ,
-                         :Championship ;
-                :contains_teams :Liverpool ,
-                                :Manchester_City ;
-                :championship_country "England" ;
-                :championship_name "Premier League" ;
-                :championship_type "League" ;
-                :championship_year 2022 .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Raheem_Sterling
-:Raheem_Sterling rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Manchester_City ;
-                 :person_age 29 ;
-                 :person_gender "Male" ;
-                 :person_name "Raheem Sterling" ;
-                 :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Riyad_Mahrez
-:Riyad_Mahrez rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Manchester_City ;
-              :person_age 30 ;
-              :person_gender "Male" ;
-              :person_name "Riyad Mahrez" ;
-              :person_nationality "Algerian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Roberto_Firmino
-:Roberto_Firmino rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Liverpool ;
-                 :person_age 29 ;
-                 :person_gender "Male" ;
-                 :person_name "Roberto Firmino" ;
-                 :person_nationality "Brazilian" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Rodri
-:Rodri rdf:type owl:NamedIndividual ,
-                :Player ;
-       :plays_in :Manchester_City ;
-       :person_age 25 ;
-       :person_gender "Male" ;
-       :person_name "Rodri" ;
-       :person_nationality "Spanish" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Ruben_Dias
-:Ruben_Dias rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Manchester_City ;
-            :person_age 24 ;
-            :person_gender "Male" ;
-            :person_name "Ruben Dias" ;
-            :person_nationality "Portuguese" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Sadio_Mané
-:Sadio_Mané rdf:type owl:NamedIndividual ,
-                     :Player ;
-            :plays_in :Liverpool ;
-            :person_age 29 ;
-            :person_gender "Male" ;
-            :person_name "Sadio Mané" ;
-            :person_nationality "Senegalese" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Scott_Carson
-:Scott_Carson rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Manchester_City ;
-              :person_age 35 ;
-              :person_gender "Male" ;
-              :person_name "Scott Carson" ;
-              :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Takumi_Minamino
-:Takumi_Minamino rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Liverpool ;
-                 :person_age 27 ;
-                 :person_gender "Male" ;
-                 :person_name "Takumi Minamino" ;
-                 :person_nationality "Japanese" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Thiago_Alcantra
-:Thiago_Alcantra rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Liverpool ;
-                 :person_age 31 ;
-                 :person_gender "Male" ;
-                 :person_name "Thiago Alcântara" ;
-                 :person_nationality "Spanish" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Trent_Alexander_Arnold
-:Trent_Alexander_Arnold rdf:type owl:NamedIndividual ,
-                                 :Player ;
-                        :plays_in :Liverpool ;
-                        :person_age 23 ;
-                        :person_gender "Male" ;
-                        :person_name "Trent Alexander-Arnold" ;
-                        :person_nationality "English" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Virgil_van_Dijk
-:Virgil_van_Dijk rdf:type owl:NamedIndividual ,
-                          :Player ;
-                 :plays_in :Liverpool ;
-                 :person_age 30 ;
-                 :person_gender "Male" ;
-                 :person_name "Virgil van Dijk" ;
-                 :person_nationality "Dutch" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Week_32
-:Week_32 rdf:type owl:NamedIndividual ,
-                  :Match ;
-         :between_teams :Liverpool ,
-                        :Manchester_City ;
-         :has_referee :Michael_Oliver ;
-         :match_location "Etihad" ;
-         :match_result "2-2" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Zack_Steffen
-:Zack_Steffen rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Manchester_City ;
-              :person_age 26 ;
-              :person_gender "Male" ;
-              :person_name "Zack Steffen" ;
-              :person_nationality "American" .
-
-
-###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alex_Collado
-:Alex_Collado rdf:type owl:NamedIndividual ,
-                       :Player ;
-              :plays_in :Barcelona ;
-              :person_age 22 ;
-              :person_gender "Male" ;
-              :person_name "Alex Collado" ;
-              :person_nationality "Spanish" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Alvaro_Odriozola
@@ -873,6 +332,16 @@
                   :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Andre_Marriner
+:Andre_Marriner rdf:type owl:NamedIndividual ,
+                         :Referee ;
+                :refereed :Week_32_Match10 ;
+                :person_age 50 ;
+                :person_gender "Male" ;
+                :person_name "Andre Marriner" ;
+                :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Andriy_Lunin
 :Andriy_Lunin rdf:type owl:NamedIndividual ,
                        :Player ;
@@ -881,6 +350,16 @@
               :person_gender "Male" ;
               :person_name "Andriy Lunin" ;
               :person_nationality "Ukrainian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Andy_Robertson
+:Andy_Robertson rdf:type owl:NamedIndividual ,
+                         :Player ;
+                :plays_in :Liverpool ;
+                :person_age 28 ;
+                :person_gender "Male" ;
+                :person_name "Andy Robertson" ;
+                :person_nationality "Scottish" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ansu_Fati
@@ -893,6 +372,46 @@
            :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Anthony_Taylor
+:Anthony_Taylor rdf:type owl:NamedIndividual ,
+                         :Referee ;
+                :refereed :Week_32_Match2 ;
+                :person_age 42 ;
+                :person_gender "Male" ;
+                :person_name "Anthony Taylor" ;
+                :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Arsenal
+:Arsenal rdf:type owl:NamedIndividual ,
+                  :Team ;
+         :competes_in :Week_32_Match3 ;
+         :has_coach :Mikel_Arteta ;
+         :participates_in :Premier_League ;
+         :team_country "England" ;
+         :team_name "Arsenal" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Aston_Villa
+:Aston_Villa rdf:type owl:NamedIndividual ,
+                      :Team ;
+             :competes_in :Week_32_Match6 ;
+             :has_coach :Dean_Smith ;
+             :participates_in :Premier_League ;
+             :team_country "England" ;
+             :team_name "Aston Villa" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Aymeric_Laporte
+:Aymeric_Laporte rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Manchester_City ;
+                 :person_age 27 ;
+                 :person_gender "Male" ;
+                 :person_name "Aymeric Laporte" ;
+                 :person_nationality "French" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Barcelona
 :Barcelona rdf:type owl:NamedIndividual ,
                     :Team ;
@@ -901,6 +420,86 @@
            :participates_in :La_Liga ;
            :team_country "Spain" ;
            :team_name "Barcelona" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Benjamin_Mendy
+:Benjamin_Mendy rdf:type owl:NamedIndividual ,
+                         :Player ;
+                :plays_in :Manchester_City ;
+                :person_age 27 ;
+                :person_gender "Male" ;
+                :person_name "Benjamin Mendy" ;
+                :person_nationality "French" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Bernardo_Silva
+:Bernardo_Silva rdf:type owl:NamedIndividual ,
+                         :Player ;
+                :plays_in :Manchester_City ;
+                :person_age 27 ;
+                :person_gender "Male" ;
+                :person_name "Bernardo Silva" ;
+                :person_nationality "Portuguese" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brendan_Rodgers
+:Brendan_Rodgers rdf:type owl:NamedIndividual ,
+                          :Coach ;
+                 :coaches_in :Leicester_City ;
+                 :person_age 48 ;
+                 :person_gender "Male" ;
+                 :person_name "Brendan Rodgers" ;
+                 :person_nationality "Northern Irish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brentford
+:Brentford rdf:type owl:NamedIndividual ,
+                    :Team ;
+           :competes_in :Week_32_Match10 ;
+           :has_coach :Thomas_Frank ;
+           :participates_in :Premier_League ;
+           :team_country "England" ;
+           :team_name "Brentford" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Brighton_Hove_Albion
+:Brighton_Hove_Albion rdf:type owl:NamedIndividual ,
+                               :Team ;
+                      :competes_in :Week_32_Match7 ;
+                      :has_coach :Graham_Potter ;
+                      :participates_in :Premier_League ;
+                      :team_country "England" ;
+                      :team_name "Brighton & Hove Albion" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Bruno_Lage
+:Bruno_Lage rdf:type owl:NamedIndividual ,
+                     :Coach ;
+            :coaches_in :Wolverhampton_Wanderers ;
+            :person_age 46 ;
+            :person_gender "Male" ;
+            :person_name "Bruno Lage" ;
+            :person_nationality "Portuguese" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Burnley
+:Burnley rdf:type owl:NamedIndividual ,
+                  :Team ;
+         :competes_in :Week_32_Match8 ;
+         :has_coach :Sean_Dyche ;
+         :participates_in :Premier_League ;
+         :team_country "England" ;
+         :team_name "Burnley" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Caoimhin_Kelleher
+:Caoimhin_Kelleher rdf:type owl:NamedIndividual ,
+                            :Player ;
+                   :plays_in :Liverpool ;
+                   :person_age 23 ;
+                   :person_gender "Male" ;
+                   :person_name "Caoimhin Kelleher" ;
+                   :person_nationality "Irish" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Carlo_Ancelotti
@@ -921,6 +520,16 @@
           :person_gender "Male" ;
           :person_name "Casemiro" ;
           :person_nationality "Brazilian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Chelsea
+:Chelsea rdf:type owl:NamedIndividual ,
+                  :Team ;
+         :competes_in :Week_32_Match2 ;
+         :has_coach :Thomas_Tuchel ;
+         :participates_in :Premier_League ;
+         :team_country "England" ;
+         :team_name "Chelsea" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Classico
@@ -945,6 +554,36 @@
                  :person_nationality "French" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Craig_Pawson
+:Craig_Pawson rdf:type owl:NamedIndividual ,
+                       :Referee ;
+              :refereed :Week_32_Match4 ;
+              :person_age 41 ;
+              :person_gender "Male" ;
+              :person_name "Craig Pawson" ;
+              :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Crystal_Palace
+:Crystal_Palace rdf:type owl:NamedIndividual ,
+                         :Team ;
+                :competes_in :Week_32_Match7 ;
+                :has_coach :Patrick_Vieira ;
+                :participates_in :Premier_League ;
+                :team_country "England" ;
+                :team_name "Crystal Palace" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Curtis_Jones
+:Curtis_Jones rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Liverpool ;
+              :person_age 20 ;
+              :person_gender "Male" ;
+              :person_name "Curtis Jones" ;
+              :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Dani_Carvajal
 :Dani_Carvajal rdf:type owl:NamedIndividual ,
                         :Player ;
@@ -963,6 +602,76 @@
              :person_gender "Male" ;
              :person_name "David Alaba" ;
              :person_nationality "Austrian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/David_Coote
+:David_Coote rdf:type owl:NamedIndividual ,
+                      :Referee ;
+             :refereed :Week_32_Match6 ;
+             :person_age 38 ;
+             :person_gender "Male" ;
+             :person_name "David Coote" ;
+             :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/David_Moyes
+:David_Moyes rdf:type owl:NamedIndividual ,
+                      :Coach ;
+             :coaches_in :West_Ham_United ;
+             :person_age 58 ;
+             :person_gender "Male" ;
+             :person_name "David Moyes" ;
+             :person_nationality "Scottish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Dean_Smith
+:Dean_Smith rdf:type owl:NamedIndividual ,
+                     :Coach ;
+            :coaches_in :Aston_Villa ;
+            :person_age 50 ;
+            :person_gender "Male" ;
+            :person_name "Dean Smith" ;
+            :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Diogo_Jota
+:Diogo_Jota rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Liverpool ;
+            :person_age 25 ;
+            :person_gender "Male" ;
+            :person_name "Diogo Jota" ;
+            :person_nationality "Portuguese" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Divock_Origi
+:Divock_Origi rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Liverpool ;
+              :person_age 26 ;
+              :person_gender "Male" ;
+              :person_name "Divock Origi" ;
+              :person_nationality "Belgian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Doku
+:Doku rdf:type owl:NamedIndividual ,
+               :Player ;
+      :plays_in :Manchester_City ;
+      :person_age 22 ;
+      :person_gender "Male" ;
+      :person_name "Doku" ;
+      :person_nationality "Belgian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Eddie_Howe
+:Eddie_Howe rdf:type owl:NamedIndividual ,
+                     :Coach ;
+            :coaches_in :Newcastle_United ;
+            :person_age 44 ;
+            :person_gender "Male" ;
+            :person_name "Eddie Howe" ;
+            :person_nationality "English" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Eden_Hazard
@@ -985,6 +694,16 @@
               :person_nationality "Brazilian" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ederson
+:Ederson rdf:type owl:NamedIndividual ,
+                  :Player ;
+         :plays_in :Manchester_City ;
+         :person_age 28 ;
+         :person_gender "Male" ;
+         :person_name "Ederson" ;
+         :person_nationality "Brazilian" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Eduardo_Camavinga
 :Eduardo_Camavinga rdf:type owl:NamedIndividual ,
                             :Player ;
@@ -1003,6 +722,26 @@
                :person_gender "Male" ;
                :person_name "Emerson Royal" ;
                :person_nationality "Brazilian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Everton
+:Everton rdf:type owl:NamedIndividual ,
+                  :Team ;
+         :competes_in :Week_32_Match4 ;
+         :has_coach :Carlo_Ancelotti ;
+         :participates_in :Premier_League ;
+         :team_country "England" ;
+         :team_name "Everton" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Fabinho
+:Fabinho rdf:type owl:NamedIndividual ,
+                  :Player ;
+         :plays_in :Liverpool ;
+         :person_age 28 ;
+         :person_gender "Male" ;
+         :person_name "Fabinho" ;
+         :person_nationality "Brazilian" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Federico_Valverde
@@ -1025,6 +764,26 @@
                :person_nationality "French" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Fernandinho
+:Fernandinho rdf:type owl:NamedIndividual ,
+                      :Player ;
+             :plays_in :Manchester_City ;
+             :person_age 36 ;
+             :person_gender "Male" ;
+             :person_name "Fernandinho" ;
+             :person_nationality "Brazilian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ferran_Torres
+:Ferran_Torres rdf:type owl:NamedIndividual ,
+                        :Player ;
+               :plays_in :Manchester_City ;
+               :person_age 21 ;
+               :person_gender "Male" ;
+               :person_name "Ferran Torres" ;
+               :person_nationality "Spanish" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Frenkie_de_Jong
 :Frenkie_de_Jong rdf:type owl:NamedIndividual ,
                           :Player ;
@@ -1033,6 +792,26 @@
                  :person_gender "Male" ;
                  :person_name "Frenkie de Jong" ;
                  :person_nationality "Dutch" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Fulham
+:Fulham rdf:type owl:NamedIndividual ,
+                 :Team ;
+        :competes_in :Week_32_Match8 ;
+        :has_coach :Marco_Silva ;
+        :participates_in :Premier_League ;
+        :team_country "England" ;
+        :team_name "Fulham" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Gabriel_Jesus
+:Gabriel_Jesus rdf:type owl:NamedIndividual ,
+                        :Player ;
+               :plays_in :Manchester_City ;
+               :person_age 24 ;
+               :person_gender "Male" ;
+               :person_name "Gabriel Jesus" ;
+               :person_nationality "Brazilian" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Gareth_Bale
@@ -1065,6 +844,26 @@
               :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Graham_Potter
+:Graham_Potter rdf:type owl:NamedIndividual ,
+                        :Coach ;
+               :coaches_in :Brighton_Hove_Albion ;
+               :person_age 46 ;
+               :person_gender "Male" ;
+               :person_name "Graham Potter" ;
+               :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Harvey_Elliott
+:Harvey_Elliott rdf:type owl:NamedIndividual ,
+                         :Player ;
+                :plays_in :Liverpool ;
+                :person_age 18 ;
+                :person_gender "Male" ;
+                :person_name "Harvey Elliott" ;
+                :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Hernandez_Hernandez
 :Hernandez_Hernandez rdf:type owl:NamedIndividual ,
                               :Referee ;
@@ -1073,6 +872,26 @@
                      :person_gender "Male" ;
                      :person_name "Hernandez Hernandez" ;
                      :person_nationality "Spanish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ibrahima_Konaté
+:Ibrahima_Konaté rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Liverpool ;
+                 :person_age 22 ;
+                 :person_gender "Male" ;
+                 :person_name "Ibrahima Konaté" ;
+                 :person_nationality "French" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ilkay_Gündogan
+:Ilkay_Gündogan rdf:type owl:NamedIndividual ,
+                         :Player ;
+                :plays_in :Manchester_City ;
+                :person_age 31 ;
+                :person_gender "Male" ;
+                :person_name "Ilkay Gündogan" ;
+                :person_nationality "German" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Isco
@@ -1085,6 +904,66 @@
       :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Jack_Grealish
+:Jack_Grealish rdf:type owl:NamedIndividual ,
+                        :Player ;
+               :plays_in :Manchester_City ;
+               :person_age 26 ;
+               :person_gender "Male" ;
+               :person_name "Jack Grealish" ;
+               :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/James_Milner
+:James_Milner rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Liverpool ;
+              :person_age 36 ;
+              :person_gender "Male" ;
+              :person_name "James Milner" ;
+              :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Joe_Gomez
+:Joe_Gomez rdf:type owl:NamedIndividual ,
+                    :Player ;
+           :plays_in :Liverpool ;
+           :person_age 24 ;
+           :person_gender "Male" ;
+           :person_name "Joe Gomez" ;
+           :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Joe_Hardy
+:Joe_Hardy rdf:type owl:NamedIndividual ,
+                    :Player ;
+           :plays_in :Liverpool ;
+           :person_age 22 ;
+           :person_gender "Male" ;
+           :person_name "Joe Hardy" ;
+           :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/John_Stones
+:John_Stones rdf:type owl:NamedIndividual ,
+                      :Player ;
+             :plays_in :Manchester_City ;
+             :person_age 29 ;
+             :person_gender "Male" ;
+             :person_name "John Stones" ;
+             :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Jordan_Henderson
+:Jordan_Henderson rdf:type owl:NamedIndividual ,
+                           :Player ;
+                  :plays_in :Liverpool ;
+                  :person_age 31 ;
+                  :person_gender "Male" ;
+                  :person_name "Jordan Henderson" ;
+                  :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Jordi_Alba
 :Jordi_Alba rdf:type owl:NamedIndividual ,
                      :Player ;
@@ -1093,6 +972,26 @@
             :person_gender "Male" ;
             :person_name "Jordi Alba" ;
             :person_nationality "Spanish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Jose_Mourinho
+:Jose_Mourinho rdf:type owl:NamedIndividual ,
+                        :Coach ;
+               :coaches_in :Tottenham_Hotspur ;
+               :person_age 58 ;
+               :person_gender "Male" ;
+               :person_name "Jose Mourinho" ;
+               :person_nationality "Portuguese" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/João_Cancelo
+:João_Cancelo rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Manchester_City ;
+              :person_age 27 ;
+              :person_gender "Male" ;
+              :person_name "João Cancelo" ;
+              :person_nationality "Portuguese" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Jude_Bellingham
@@ -1105,6 +1004,16 @@
                  :person_nationality "English" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Jurgen_Klopp
+:Jurgen_Klopp rdf:type owl:NamedIndividual ,
+                       :Coach ;
+              :coaches_in :Liverpool ;
+              :person_age 50 ;
+              :person_gender "Male" ;
+              :person_name "Jurgen Klopp" ;
+              :person_nationality "German" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Karim_Benzema
 :Karim_Benzema rdf:type owl:NamedIndividual ,
                         :Player ;
@@ -1113,6 +1022,56 @@
                :person_gender "Male" ;
                :person_name "Karim Benzema" ;
                :person_nationality "French" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Kevin_De_Bruyne
+:Kevin_De_Bruyne rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Manchester_City ;
+                 :person_age 30 ;
+                 :person_gender "Male" ;
+                 :person_name "Kevin De Bruyne" ;
+                 :person_nationality "Belgian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Konstantinos_Tsimikas
+:Konstantinos_Tsimikas rdf:type owl:NamedIndividual ,
+                                :Player ;
+                       :plays_in :Liverpool ;
+                       :person_age 25 ;
+                       :person_gender "Male" ;
+                       :person_name "Konstantinos Tsimikas" ;
+                       :person_nationality "Greek" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Kostas_Tsimikas
+:Kostas_Tsimikas rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Liverpool ;
+                 :person_age 25 ;
+                 :person_gender "Male" ;
+                 :person_name "Kostas Tsimikas" ;
+                 :person_nationality "Greek" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Kovacic
+:Kovacic rdf:type owl:NamedIndividual ,
+                  :Player ;
+         :plays_in :Manchester_City ;
+         :person_age 28 ;
+         :person_gender "Male" ;
+         :person_name "Kovacic" ;
+         :person_nationality "Croatian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Kyle_Walker
+:Kyle_Walker rdf:type owl:NamedIndividual ,
+                      :Player ;
+             :plays_in :Manchester_City ;
+             :person_age 31 ;
+             :person_gender "Male" ;
+             :person_name "Kyle Walker" ;
+             :person_nationality "English" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/La_Liga
@@ -1126,6 +1085,46 @@
          :championship_year 2022 .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Lee_Mason
+:Lee_Mason rdf:type owl:NamedIndividual ,
+                    :Referee ;
+           :refereed :Week_32_Match8 ;
+           :person_age 49 ;
+           :person_gender "Male" ;
+           :person_name "Lee Mason" ;
+           :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Leeds_United
+:Leeds_United rdf:type owl:NamedIndividual ,
+                       :Team ;
+              :competes_in :Week_32_Match5 ;
+              :has_coach :Marcelo_Bielsa ;
+              :participates_in :Premier_League ;
+              :team_country "England" ;
+              :team_name "Leeds United" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Leicester_City
+:Leicester_City rdf:type owl:NamedIndividual ,
+                         :Team ;
+                :competes_in :Week_32_Match4 ;
+                :has_coach :Brendan_Rodgers ;
+                :participates_in :Premier_League ;
+                :team_country "England" ;
+                :team_name "Leicester City" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Liam_Delap
+:Liam_Delap rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Manchester_City ;
+            :person_age 18 ;
+            :person_gender "Male" ;
+            :person_name "Liam Delap" ;
+            :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Lionel_Messi
 :Lionel_Messi rdf:type owl:NamedIndividual ,
                        :Player ;
@@ -1134,6 +1133,16 @@
               :person_gender "Male" ;
               :person_name "Lionel Messi" ;
               :person_nationality "Argentinian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Liverpool
+:Liverpool rdf:type owl:NamedIndividual ,
+                    :Team ;
+           :competes_in :Week_32_Match1 ;
+           :has_coach :Jurgen_Klopp ;
+           :participates_in :Premier_League ;
+           :team_country "England" ;
+           :team_name "Liverpool" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Lucas_Vazquez
@@ -1156,6 +1165,26 @@
              :person_nationality "Croatian" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Manchester_City
+:Manchester_City rdf:type owl:NamedIndividual ,
+                          :Team ;
+                 :competes_in :Week_32_Match1 ;
+                 :has_coach :Pep_Guardiola ;
+                 :participates_in :Premier_League ;
+                 :team_country "England" ;
+                 :team_name "Manchester City" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Manchester_United
+:Manchester_United rdf:type owl:NamedIndividual ,
+                            :Team ;
+                   :competes_in :Week_32_Match2 ;
+                   :has_coach :Ole_Gunnar_Solskjaer ;
+                   :participates_in :Premier_League ;
+                   :team_country "England" ;
+                   :team_name "Manchester United" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Marc-André_ter_Stegen
 :Marc-André_ter_Stegen rdf:type owl:NamedIndividual ,
                                 :Player ;
@@ -1164,6 +1193,16 @@
                        :person_gender "Male" ;
                        :person_name "Marc-André ter Stegen" ;
                        :person_nationality "German" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Marcelo_Bielsa
+:Marcelo_Bielsa rdf:type owl:NamedIndividual ,
+                         :Coach ;
+                :coaches_in :Leeds_United ;
+                :person_age 66 ;
+                :person_gender "Male" ;
+                :person_name "Marcelo Bielsa" ;
+                :person_nationality "Argentinian" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Marco_Asensio
@@ -1176,6 +1215,16 @@
                :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Marco_Silva
+:Marco_Silva rdf:type owl:NamedIndividual ,
+                      :Coach ;
+             :coaches_in :Fulham ;
+             :person_age 44 ;
+             :person_gender "Male" ;
+             :person_name "Marco Silva" ;
+             :person_nationality "Portuguese" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mariano_Diaz
 :Mariano_Diaz rdf:type owl:NamedIndividual ,
                        :Player ;
@@ -1184,6 +1233,26 @@
               :person_gender "Male" ;
               :person_name "Mariano Diaz" ;
               :person_nationality "Dominican" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mark_Clattenburg
+:Mark_Clattenburg rdf:type owl:NamedIndividual ,
+                           :Referee ;
+                  :refereed :Week_32_Match7 ;
+                  :person_age 46 ;
+                  :person_gender "Male" ;
+                  :person_name "Mark Clattenburg" ;
+                  :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Martin_Atkinson
+:Martin_Atkinson rdf:type owl:NamedIndividual ,
+                          :Referee ;
+                 :refereed :Week_32_Match3 ;
+                 :person_age 49 ;
+                 :person_gender "Male" ;
+                 :person_name "Martin Atkinson" ;
+                 :person_nationality "English" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Memphis_Depay
@@ -1196,6 +1265,36 @@
                :person_nationality "Dutch" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Michael_Oliver
+:Michael_Oliver rdf:type owl:NamedIndividual ,
+                         :Referee ;
+                :refereed :Week_32_Match1 ;
+                :person_age 39 ;
+                :person_gender "Male" ;
+                :person_name "Michael Oliver" ;
+                :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mike_Dean
+:Mike_Dean rdf:type owl:NamedIndividual ,
+                    :Referee ;
+           :refereed :Week_32_Match9 ;
+           :person_age 53 ;
+           :person_gender "Male" ;
+           :person_name "Mike Dean" ;
+           :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mikel_Arteta
+:Mikel_Arteta rdf:type owl:NamedIndividual ,
+                       :Coach ;
+              :coaches_in :Arsenal ;
+              :person_age 40 ;
+              :person_gender "Male" ;
+              :person_name "Mikel Arteta" ;
+              :person_nationality "Spanish" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Miralem_Pjanić
 :Miralem_Pjanić rdf:type owl:NamedIndividual ,
                          :Player ;
@@ -1204,6 +1303,16 @@
                 :person_gender "Male" ;
                 :person_name "Miralem Pjanić" ;
                 :person_nationality "Bosnian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Mohamed_Salah
+:Mohamed_Salah rdf:type owl:NamedIndividual ,
+                        :Player ;
+               :plays_in :Liverpool ;
+               :person_age 29 ;
+               :person_gender "Male" ;
+               :person_name "Mohamed Salah" ;
+               :person_nationality "Egyptian" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Moussa_Wagué
@@ -1216,6 +1325,36 @@
               :person_nationality "Senegalese" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Naby_Keïta
+:Naby_Keïta rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Liverpool ;
+            :person_age 26 ;
+            :person_gender "Male" ;
+            :person_name "Naby Keïta" ;
+            :person_nationality "Guinean" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Nathan_Aké
+:Nathan_Aké rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Manchester_City ;
+            :person_age 26 ;
+            :person_gender "Male" ;
+            :person_name "Nathan Aké" ;
+            :person_nationality "Dutch" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Neco_Williams
+:Neco_Williams rdf:type owl:NamedIndividual ,
+                        :Player ;
+               :plays_in :Liverpool ;
+               :person_age 20 ;
+               :person_gender "Male" ;
+               :person_name "Neco Williams" ;
+               :person_nationality "Welsh" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Neto_Murara
 :Neto_Murara rdf:type owl:NamedIndividual ,
                       :Player ;
@@ -1224,6 +1363,26 @@
              :person_gender "Male" ;
              :person_name "Neto Murara" ;
              :person_nationality "Brazilian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Newcastle_United
+:Newcastle_United rdf:type owl:NamedIndividual ,
+                           :Team ;
+                  :competes_in :Week_32_Match9 ;
+                  :has_coach :Eddie_Howe ;
+                  :participates_in :Premier_League ;
+                  :team_country "England" ;
+                  :team_name "Newcastle United" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ole_Gunnar_Solskjaer
+:Ole_Gunnar_Solskjaer rdf:type owl:NamedIndividual ,
+                               :Coach ;
+                      :coaches_in :Manchester_United ;
+                      :person_age 49 ;
+                      :person_gender "Male" ;
+                      :person_name "Ole Gunnar Solskjaer" ;
+                      :person_nationality "Norwegian" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ousmane_Dembélé
@@ -1236,6 +1395,16 @@
                  :person_nationality "French" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Patrick_Vieira
+:Patrick_Vieira rdf:type owl:NamedIndividual ,
+                         :Coach ;
+                :coaches_in :Crystal_Palace ;
+                :person_age 45 ;
+                :person_gender "Male" ;
+                :person_name "Patrick Vieira" ;
+                :person_nationality "French" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Pedri
 :Pedri rdf:type owl:NamedIndividual ,
                 :Player ;
@@ -1246,6 +1415,26 @@
        :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Pep_Guardiola
+:Pep_Guardiola rdf:type owl:NamedIndividual ,
+                        :Coach ;
+               :coaches_in :Manchester_City ;
+               :person_age 48 ;
+               :person_gender "Male" ;
+               :person_name "Pep Guardiola" ;
+               :person_nationality "Spanish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Phil_Foden
+:Phil_Foden rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Manchester_City ;
+            :person_age 21 ;
+            :person_gender "Male" ;
+            :person_name "Phil Foden" ;
+            :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Philippe_Coutinho
 :Philippe_Coutinho rdf:type owl:NamedIndividual ,
                             :Player ;
@@ -1254,6 +1443,37 @@
                    :person_gender "Male" ;
                    :person_name "Philippe Coutinho" ;
                    :person_nationality "Brazilian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Premier_League
+:Premier_League rdf:type owl:NamedIndividual ,
+                         :Championship ;
+                :contains_teams :Liverpool ,
+                                :Manchester_City ;
+                :championship_country "England" ;
+                :championship_name "Premier League" ;
+                :championship_type "League" ;
+                :championship_year 2022 .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Raheem_Sterling
+:Raheem_Sterling rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Manchester_City ;
+                 :person_age 29 ;
+                 :person_gender "Male" ;
+                 :person_name "Raheem Sterling" ;
+                 :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ralph_Hassenhuttl
+:Ralph_Hassenhuttl rdf:type owl:NamedIndividual ,
+                            :Coach ;
+                   :coaches_in :Southampton ;
+                   :person_age 54 ;
+                   :person_gender "Male" ;
+                   :person_name "Ralph Hassenhuttl" ;
+                   :person_nationality "Austrian" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Raphael_Varane
@@ -1286,6 +1506,36 @@
             :person_nationality "Spanish" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Riyad_Mahrez
+:Riyad_Mahrez rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Manchester_City ;
+              :person_age 30 ;
+              :person_gender "Male" ;
+              :person_name "Riyad Mahrez" ;
+              :person_nationality "Algerian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Roberto_Firmino
+:Roberto_Firmino rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Liverpool ;
+                 :person_age 29 ;
+                 :person_gender "Male" ;
+                 :person_name "Roberto Firmino" ;
+                 :person_nationality "Brazilian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Rodri
+:Rodri rdf:type owl:NamedIndividual ,
+                :Player ;
+       :plays_in :Manchester_City ;
+       :person_age 25 ;
+       :person_gender "Male" ;
+       :person_name "Rodri" ;
+       :person_nationality "Spanish" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Rodrygo_Goes
 :Rodrygo_Goes rdf:type owl:NamedIndividual ,
                        :Player ;
@@ -1306,6 +1556,26 @@
                :person_nationality "Uruguayan" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Ruben_Dias
+:Ruben_Dias rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Manchester_City ;
+            :person_age 24 ;
+            :person_gender "Male" ;
+            :person_name "Ruben Dias" ;
+            :person_nationality "Portuguese" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Sadio_Mané
+:Sadio_Mané rdf:type owl:NamedIndividual ,
+                     :Player ;
+            :plays_in :Liverpool ;
+            :person_age 29 ;
+            :person_gender "Male" ;
+            :person_name "Sadio Mané" ;
+            :person_nationality "Senegalese" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Samuel_Umtiti
 :Samuel_Umtiti rdf:type owl:NamedIndividual ,
                         :Player ;
@@ -1314,6 +1584,26 @@
                :person_gender "Male" ;
                :person_name "Samuel Umtiti" ;
                :person_nationality "French" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Scott_Carson
+:Scott_Carson rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Manchester_City ;
+              :person_age 35 ;
+              :person_gender "Male" ;
+              :person_name "Scott Carson" ;
+              :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Sean_Dyche
+:Sean_Dyche rdf:type owl:NamedIndividual ,
+                     :Coach ;
+            :coaches_in :Burnley ;
+            :person_age 50 ;
+            :person_gender "Male" ;
+            :person_name "Sean Dyche" ;
+            :person_nationality "English" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Sergi_Roberto
@@ -1356,6 +1646,46 @@
               :person_nationality "American" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Southampton
+:Southampton rdf:type owl:NamedIndividual ,
+                      :Team ;
+             :competes_in :Week_32_Match9 ;
+             :has_coach :Ralph_Hassenhuttl ;
+             :participates_in :Premier_League ;
+             :team_country "England" ;
+             :team_name "Southampton" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Stuart_Attwell
+:Stuart_Attwell rdf:type owl:NamedIndividual ,
+                         :Referee ;
+                :refereed :Week_32_Match5 ;
+                :person_age 38 ;
+                :person_gender "Male" ;
+                :person_name "Stuart Attwell" ;
+                :person_nationality "English" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Takumi_Minamino
+:Takumi_Minamino rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Liverpool ;
+                 :person_age 27 ;
+                 :person_gender "Male" ;
+                 :person_name "Takumi Minamino" ;
+                 :person_nationality "Japanese" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Thiago_Alcantra
+:Thiago_Alcantra rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Liverpool ;
+                 :person_age 31 ;
+                 :person_gender "Male" ;
+                 :person_name "Thiago Alcântara" ;
+                 :person_nationality "Spanish" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Thibaut_Courtois
 :Thibaut_Courtois rdf:type owl:NamedIndividual ,
                            :Player ;
@@ -1364,6 +1694,26 @@
                   :person_gender "Male" ;
                   :person_name "Thibaut Courtois" ;
                   :person_nationality "Belgian" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Thomas_Frank
+:Thomas_Frank rdf:type owl:NamedIndividual ,
+                       :Coach ;
+              :coaches_in :Brentford ;
+              :person_age 48 ;
+              :person_gender "Male" ;
+              :person_name "Thomas Frank" ;
+              :person_nationality "Danish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Thomas_Tuchel
+:Thomas_Tuchel rdf:type owl:NamedIndividual ,
+                        :Coach ;
+               :coaches_in :Chelsea ;
+               :person_age 48 ;
+               :person_gender "Male" ;
+               :person_name "Thomas Tuchel" ;
+               :person_nationality "German" .
 
 
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Toni_Kroos
@@ -1376,6 +1726,26 @@
             :person_nationality "German" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Tottenham_Hotspur
+:Tottenham_Hotspur rdf:type owl:NamedIndividual ,
+                            :Team ;
+                   :competes_in :Week_32_Match3 ;
+                   :has_coach :Jose_Mourinho ;
+                   :participates_in :Premier_League ;
+                   :team_country "England" ;
+                   :team_name "Tottenham Hotspur" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Trent_Alexander_Arnold
+:Trent_Alexander_Arnold rdf:type owl:NamedIndividual ,
+                                 :Player ;
+                        :plays_in :Liverpool ;
+                        :person_age 23 ;
+                        :person_gender "Male" ;
+                        :person_name "Trent Alexander-Arnold" ;
+                        :person_nationality "English" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Vinicius_Jr
 :Vinicius_Jr rdf:type owl:NamedIndividual ,
                       :Player ;
@@ -1386,6 +1756,146 @@
              :person_nationality "Brazilian" .
 
 
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Virgil_van_Dijk
+:Virgil_van_Dijk rdf:type owl:NamedIndividual ,
+                          :Player ;
+                 :plays_in :Liverpool ;
+                 :person_age 30 ;
+                 :person_gender "Male" ;
+                 :person_name "Virgil van Dijk" ;
+                 :person_nationality "Dutch" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Watford
+:Watford rdf:type owl:NamedIndividual ,
+                  :Team ;
+         :competes_in :Week_32_Match10 ;
+         :has_coach :Xisco_Munoz ;
+         :participates_in :Premier_League ;
+         :team_country "England" ;
+         :team_name "Watford" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match1
+:Week_32_Match1 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Liverpool ,
+                               :Manchester_City ;
+                :has_referee :Michael_Oliver ;
+                :match_location "Etihad" ;
+                :match_result "2-2" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match10
+:Week_32_Match10 rdf:type owl:NamedIndividual ,
+                          :Match ;
+                 :between_teams :Brentford ,
+                                :Watford ;
+                 :has_referee :Andre_Marriner ;
+                 :match_location "Vicarage Road" ;
+                 :match_result "2-1" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match2
+:Week_32_Match2 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Chelsea ,
+                               :Manchester_United ;
+                :has_referee :Anthony_Taylor ;
+                :match_location "Old_Trafford" ;
+                :match_result "1-0" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match3
+:Week_32_Match3 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Arsenal ,
+                               :Tottenham_Hotspur ;
+                :has_referee :Martin_Atkinson ;
+                :match_location "Emirates_Stadium" ;
+                :match_result "3-1" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match4
+:Week_32_Match4 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Everton ,
+                               :Leicester_City ;
+                :has_referee :Craig_Pawson ;
+                :match_location "King_Power_Stadium" ;
+                :match_result "2-0" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match5
+:Week_32_Match5 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Leeds_United ,
+                               :West_Ham_United ;
+                :has_referee :Stuart_Attwell ;
+                :match_location "London_Stadium" ;
+                :match_result "2-1" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match6
+:Week_32_Match6 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Aston_Villa ,
+                               :Wolverhampton_Wanderers ;
+                :has_referee :David_Coote ;
+                :match_location "Villa_Park" ;
+                :match_result "1-1" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match7
+:Week_32_Match7 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Brighton_Hove_Albion ,
+                               :Crystal_Palace ;
+                :has_referee :Mark_Clattenburg ;
+                :match_location "Selhurst Park" ;
+                :match_result "3-2" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match8
+:Week_32_Match8 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Burnley ,
+                               :Fulham ;
+                :has_referee :Lee_Mason ;
+                :match_location "Craven Cottage" ;
+                :match_result "1-1" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Week_32_Match9
+:Week_32_Match9 rdf:type owl:NamedIndividual ,
+                         :Match ;
+                :between_teams :Newcastle_United ,
+                               :Southampton ;
+                :has_referee :Mike_Dean ;
+                :match_location "St James' Park" ;
+                :match_result "2-0" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/West_Ham_United
+:West_Ham_United rdf:type owl:NamedIndividual ,
+                          :Team ;
+                 :competes_in :Week_32_Match5 ;
+                 :has_coach :David_Moyes ;
+                 :participates_in :Premier_League ;
+                 :team_country "England" ;
+                 :team_name "West Ham United" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Wolverhampton_Wanderers
+:Wolverhampton_Wanderers rdf:type owl:NamedIndividual ,
+                                  :Team ;
+                         :competes_in :Week_32_Match6 ;
+                         :has_coach :Bruno_Lage ;
+                         :participates_in :Premier_League ;
+                         :team_country "England" ;
+                         :team_name "Wolverhampton Wanderers" .
+
+
 ###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Xavi_Hernandez
 :Xavi_Hernandez rdf:type owl:NamedIndividual ,
                          :Coach ;
@@ -1394,6 +1904,26 @@
                 :person_gender "Male" ;
                 :person_name "Xavi Hernandez" ;
                 :person_nationality "Spanish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Xisco_Munoz
+:Xisco_Munoz rdf:type owl:NamedIndividual ,
+                      :Coach ;
+             :coaches_in :Watford ;
+             :person_age 46 ;
+             :person_gender "Male" ;
+             :person_name "Xisco Munoz" ;
+             :person_nationality "Spanish" .
+
+
+###  http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Zack_Steffen
+:Zack_Steffen rdf:type owl:NamedIndividual ,
+                       :Player ;
+              :plays_in :Manchester_City ;
+              :person_age 26 ;
+              :person_gender "Male" ;
+              :person_name "Zack Steffen" ;
+              :person_nationality "American" .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
