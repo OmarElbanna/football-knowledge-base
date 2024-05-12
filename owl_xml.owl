@@ -1,0 +1,4082 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football">
+    <Prefix name="" IRI="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Football Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/Championship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Coach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Match"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Referee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Team"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/between_teams"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/coaches_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/competes_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/contains_teams"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_coach"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_player"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/has_referee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/participates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/plays_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/refereed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/championship_country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/championship_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/championship_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/championship_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/match_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/match_location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/match_result"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/match_title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/person_age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/person_gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/person_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/person_nationality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/team_country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/team_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Divock_Origi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ederson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fabinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fernandinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Milner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Stones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#João_Cancelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kovacic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liam_Delap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neco_Williams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phil_Foden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Premier_League"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rodri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scott_Carson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Week_32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Alex_Collado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Barcelona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Casemiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Classico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/David_Alaba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Eder_Militao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Isco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/La_Liga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Luka_Modric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Neto_Murara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pedri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/Championship"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Coach"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Coach"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/coaches_in"/>
+            <Class IRI="/Team"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Match"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Match"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="/between_teams"/>
+            <Class IRI="/Team"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Match"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/has_referee"/>
+            <Class IRI="/Referee"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Person"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Player"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Player"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="/plays_in"/>
+            <Class IRI="/Team"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Referee"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Referee"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/refereed"/>
+            <Class IRI="/Match"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Team"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Team"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/competes_in"/>
+            <Class IRI="/Match"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Team"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/participates_in"/>
+            <Class IRI="/Championship"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Team"/>
+        <ObjectMinCardinality cardinality="23">
+            <ObjectProperty IRI="/has_player"/>
+            <Class IRI="/Player"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Team"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/has_coach"/>
+            <Class IRI="/Coach"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Team"/>
+        <ObjectMaxCardinality cardinality="30">
+            <ObjectProperty IRI="/has_player"/>
+            <Class IRI="/Player"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/Match"/>
+        <Class IRI="/Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Match"/>
+        <Class IRI="/Team"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Person"/>
+        <Class IRI="/Team"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Player"/>
+        <Class IRI="/Referee"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Divock_Origi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Doku"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Ederson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Fabinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#James_Milner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#John_Stones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#João_Cancelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Coach"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Kovacic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Liam_Delap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Team"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Team"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Referee"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Neco_Williams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Coach"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Championship"/>
+        <NamedIndividual IRI="#Premier_League"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Rodri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Scott_Carson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Match"/>
+        <NamedIndividual IRI="#Week_32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Alex_Collado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Team"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Coach"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Casemiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Match"/>
+        <NamedIndividual IRI="/Classico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/David_Alaba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Eder_Militao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Referee"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Isco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Championship"/>
+        <NamedIndividual IRI="/La_Liga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Luka_Modric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Neto_Murara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Pedri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Team"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Player"/>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Coach"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Divock_Origi"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Doku"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Ederson"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Fabinho"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#James_Milner"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#John_Stones"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#João_Cancelo"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/coaches_in"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Kovacic"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Liam_Delap"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/competes_in"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <NamedIndividual IRI="#Week_32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/has_coach"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/participates_in"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <NamedIndividual IRI="#Premier_League"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/competes_in"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Week_32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/has_coach"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/participates_in"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Premier_League"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/refereed"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+        <NamedIndividual IRI="#Week_32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Neco_Williams"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/coaches_in"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/contains_teams"/>
+        <NamedIndividual IRI="#Premier_League"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/contains_teams"/>
+        <NamedIndividual IRI="#Premier_League"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Rodri"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Scott_Carson"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/between_teams"/>
+        <NamedIndividual IRI="#Week_32"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/between_teams"/>
+        <NamedIndividual IRI="#Week_32"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/has_referee"/>
+        <NamedIndividual IRI="#Week_32"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Alex_Collado"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/competes_in"/>
+        <NamedIndividual IRI="/Barcelona"/>
+        <NamedIndividual IRI="/Classico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/has_coach"/>
+        <NamedIndividual IRI="/Barcelona"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/participates_in"/>
+        <NamedIndividual IRI="/Barcelona"/>
+        <NamedIndividual IRI="/La_Liga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/coaches_in"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Casemiro"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/between_teams"/>
+        <NamedIndividual IRI="/Classico"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/between_teams"/>
+        <NamedIndividual IRI="/Classico"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/has_referee"/>
+        <NamedIndividual IRI="/Classico"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/David_Alaba"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Eder_Militao"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/refereed"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+        <NamedIndividual IRI="/Classico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Isco"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/contains_teams"/>
+        <NamedIndividual IRI="/La_Liga"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/contains_teams"/>
+        <NamedIndividual IRI="/La_Liga"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Luka_Modric"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Neto_Murara"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Pedri"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/competes_in"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+        <NamedIndividual IRI="/Classico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/has_coach"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/participates_in"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+        <NamedIndividual IRI="/La_Liga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays_in"/>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/coaches_in"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+        <NamedIndividual IRI="/Barcelona"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+        <Literal>Alex Oxlade-Chamberlain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Alex_Oxlade_Chamberlain"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+        <Literal>Alisson Becker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Alisson_Becker"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+        <Literal>Andy Robertson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Andy_Robertson"/>
+        <Literal>Scottish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+        <Literal>Aymeric Laporte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Aymeric_Laporte"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+        <Literal>Benjamin Mendy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Benjamin_Mendy"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+        <Literal>Bernardo Silva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Bernardo_Silva"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+        <Literal>Caoimhin Kelleher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Caoimhin_Kelleher"/>
+        <Literal>Irish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+        <Literal>Curtis Jones</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Curtis_Jones"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+        <Literal>Diogo Jota</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Diogo_Jota"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Divock_Origi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Divock_Origi"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Divock_Origi"/>
+        <Literal>Divock Origi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Divock_Origi"/>
+        <Literal>Belgian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Doku"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Doku"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Doku"/>
+        <Literal>Doku</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Doku"/>
+        <Literal>Belgian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Ederson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Ederson"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Ederson"/>
+        <Literal>Ederson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Ederson"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Fabinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Fabinho"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Fabinho"/>
+        <Literal>Fabinho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Fabinho"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal>Fernandinho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+        <Literal>Ferran Torres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Ferran_Torres"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+        <Literal>Gabriel Jesus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+        <Literal>Harvey Elliott</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Harvey_Elliott"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+        <Literal>Ibrahima Konaté</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Ibrahima_Konaté"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+        <Literal>Ilkay Gündogan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Ilkay_Gündogan"/>
+        <Literal>German</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+        <Literal>Jack Grealish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Jack_Grealish"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#James_Milner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#James_Milner"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#James_Milner"/>
+        <Literal>James Milner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#James_Milner"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+        <Literal>Joe Gomez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Joe_Gomez"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+        <Literal>Joe Hardy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Joe_Hardy"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#John_Stones"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#John_Stones"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#John_Stones"/>
+        <Literal>John Stones</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#John_Stones"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+        <Literal>Jordan Henderson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Jordan_Henderson"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#João_Cancelo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#João_Cancelo"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#João_Cancelo"/>
+        <Literal>João Cancelo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#João_Cancelo"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+        <Literal>Jurgen Klopp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Jurgen_Klopp"/>
+        <Literal>German</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+        <Literal>Kevin De Bruyne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Kevin_De_Bruyne"/>
+        <Literal>Belgian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+        <Literal>Konstantinos Tsimikas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Konstantinos_Tsimikas"/>
+        <Literal>Greek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+        <Literal>Kostas Tsimikas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Kostas_Tsimikas"/>
+        <Literal>Greek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Kovacic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Kovacic"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Kovacic"/>
+        <Literal>Kovacic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Kovacic"/>
+        <Literal>Croatian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+        <Literal>Kyle Walker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Kyle_Walker"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Liam_Delap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Liam_Delap"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Liam_Delap"/>
+        <Literal>Liam Delap</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Liam_Delap"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_country"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <Literal>England</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_name"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <Literal>Liverpool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_country"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal>England</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_name"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal>Manchester City</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+        <Literal>Michael Oliver</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Michael_Oliver"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+        <Literal>Mohamed Salah</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Mohamed_Salah"/>
+        <Literal>Egyptian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+        <Literal>Naby Keïta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Naby_Keïta"/>
+        <Literal>Guinean</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+        <Literal>Nathan Aké</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Nathan_Aké"/>
+        <Literal>Dutch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Neco_Williams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Neco_Williams"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Neco_Williams"/>
+        <Literal>Neco Williams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Neco_Williams"/>
+        <Literal>Welsh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+        <Literal>Pep Guardiola</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal>Phil Foden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_country"/>
+        <NamedIndividual IRI="#Premier_League"/>
+        <Literal>England</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_name"/>
+        <NamedIndividual IRI="#Premier_League"/>
+        <Literal>Premier League</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_type"/>
+        <NamedIndividual IRI="#Premier_League"/>
+        <Literal>League</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_year"/>
+        <NamedIndividual IRI="#Premier_League"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+        <Literal>Raheem Sterling</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Raheem_Sterling"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+        <Literal>Riyad Mahrez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Riyad_Mahrez"/>
+        <Literal>Algerian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+        <Literal>Roberto Firmino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Roberto_Firmino"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Rodri"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Rodri"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Rodri"/>
+        <Literal>Rodri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Rodri"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+        <Literal>Ruben Dias</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Ruben_Dias"/>
+        <Literal>Portuguese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal>Sadio Mané</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal>Senegalese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Scott_Carson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Scott_Carson"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Scott_Carson"/>
+        <Literal>Scott Carson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Scott_Carson"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+        <Literal>Takumi Minamino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Takumi_Minamino"/>
+        <Literal>Japanese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+        <Literal>Thiago Alcântara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Thiago_Alcantra"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+        <Literal>Trent Alexander-Arnold</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Trent_Alexander_Arnold"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+        <Literal>Virgil van Dijk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Virgil_van_Dijk"/>
+        <Literal>Dutch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/match_location"/>
+        <NamedIndividual IRI="#Week_32"/>
+        <Literal>Etihad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/match_result"/>
+        <NamedIndividual IRI="#Week_32"/>
+        <Literal>2-2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+        <Literal>Zack Steffen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="#Zack_Steffen"/>
+        <Literal>American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Alex_Collado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Alex_Collado"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Alex_Collado"/>
+        <Literal>Alex Collado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Alex_Collado"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+        <Literal>Alvaro Odriozola</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Alvaro_Odriozola"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+        <Literal>Andriy Lunin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Andriy_Lunin"/>
+        <Literal>Ukrainian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+        <Literal>Ansu Fati</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Ansu_Fati"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_country"/>
+        <NamedIndividual IRI="/Barcelona"/>
+        <Literal>Spain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_name"/>
+        <NamedIndividual IRI="/Barcelona"/>
+        <Literal>Barcelona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+        <Literal>Carlo Ancelotti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Carlo_Ancelotti"/>
+        <Literal>Italian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Casemiro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Casemiro"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Casemiro"/>
+        <Literal>Casemiro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Casemiro"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/match_date"/>
+        <NamedIndividual IRI="/Classico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-11T22:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/match_location"/>
+        <NamedIndividual IRI="/Classico"/>
+        <Literal>Camp Noe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/match_result"/>
+        <NamedIndividual IRI="/Classico"/>
+        <Literal>2-0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/match_title"/>
+        <NamedIndividual IRI="/Classico"/>
+        <Literal>Classico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+        <Literal>Clément Lenglet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Clément_Lenglet"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+        <Literal>Dani Carvajal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Dani_Carvajal"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/David_Alaba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/David_Alaba"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/David_Alaba"/>
+        <Literal>David Alaba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/David_Alaba"/>
+        <Literal>Austrian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+        <Literal>Eden Hazard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Eden_Hazard"/>
+        <Literal>Belgian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Eder_Militao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Eder_Militao"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Eder_Militao"/>
+        <Literal>Eder Militao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Eder_Militao"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+        <Literal>Eduardo Camavinga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Eduardo_Camavinga"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+        <Literal>Emerson Royal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Emerson_Royal"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+        <Literal>Federico Valverde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Federico_Valverde"/>
+        <Literal>Uruguayan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+        <Literal>Ferland Mendy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Ferland_Mendy"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+        <Literal>Frenkie de Jong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Frenkie_de_Jong"/>
+        <Literal>Dutch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+        <Literal>Gareth Bale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Gareth_Bale"/>
+        <Literal>Welsh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+        <Literal>Gerard Deulofeu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Gerard_Deulofeu"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+        <Literal>Gerard Piqué</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Gerard_Piqué"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+        <Literal>Hernandez Hernandez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Hernandez_Hernandez"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Isco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Isco"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Isco"/>
+        <Literal>Isco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Isco"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+        <Literal>Jordi Alba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Jordi_Alba"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+        <Literal>Jude Bellingham</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Jude_Bellingham"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+        <Literal>Karim Benzema</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Karim_Benzema"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_country"/>
+        <NamedIndividual IRI="/La_Liga"/>
+        <Literal>Spain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_name"/>
+        <NamedIndividual IRI="/La_Liga"/>
+        <Literal>La Liga</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_type"/>
+        <NamedIndividual IRI="/La_Liga"/>
+        <Literal>League</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/championship_year"/>
+        <NamedIndividual IRI="/La_Liga"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+        <Literal>Lionel Messi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Lionel_Messi"/>
+        <Literal>Argentinian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+        <Literal>Lucas Vazquez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Lucas_Vazquez"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Luka_Modric"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Luka_Modric"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Luka_Modric"/>
+        <Literal>Luka Modric</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Luka_Modric"/>
+        <Literal>Croatian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+        <Literal>Marc-André ter Stegen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Marc-André_ter_Stegen"/>
+        <Literal>German</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+        <Literal>Marco Asensio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Marco_Asensio"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+        <Literal>Mariano Diaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Mariano_Diaz"/>
+        <Literal>Dominican</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+        <Literal>Memphis Depay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Memphis_Depay"/>
+        <Literal>Dutch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+        <Literal>Miralem Pjanić</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Miralem_Pjanić"/>
+        <Literal>Bosnian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+        <Literal>Moussa Wagué</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Moussa_Wagué"/>
+        <Literal>Senegalese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Neto_Murara"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Neto_Murara"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Neto_Murara"/>
+        <Literal>Neto Murara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Neto_Murara"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+        <Literal>Ousmane Dembélé</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Ousmane_Dembélé"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Pedri"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Pedri"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Pedri"/>
+        <Literal>Pedri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Pedri"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+        <Literal>Philippe Coutinho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Philippe_Coutinho"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+        <Literal>Raphael Varane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Raphael_Varane"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_country"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+        <Literal>Spain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/team_name"/>
+        <NamedIndividual IRI="/Real_Madrid"/>
+        <Literal>Real Madrid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+        <Literal>Riqui Puig</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Riqui_Puig"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+        <Literal>Rodrygo Goes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Rodrygo_Goes"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+        <Literal>Ronald Araújo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Ronald_Araújo"/>
+        <Literal>Uruguayan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+        <Literal>Samuel Umtiti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Samuel_Umtiti"/>
+        <Literal>French</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+        <Literal>Sergi Roberto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Sergi_Roberto"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+        <Literal>Sergio Agüero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Sergio_Aguero"/>
+        <Literal>Argentinian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+        <Literal>Sergio Busquets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Sergio_Busquets"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+        <Literal>Sergiño Dest</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Sergiño_Dest"/>
+        <Literal>American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+        <Literal>Thibaut Courtois</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Thibaut_Courtois"/>
+        <Literal>Belgian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+        <Literal>Toni Kroos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Toni_Kroos"/>
+        <Literal>German</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+        <Literal>Vinicius Jr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Vinicius_Jr"/>
+        <Literal>Brazilian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_age"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_gender"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_name"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+        <Literal>Xavi Hernandez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/person_nationality"/>
+        <NamedIndividual IRI="/Xavi_Hernandez"/>
+        <Literal>Spanish</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/between_teams"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/coaches_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/competes_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/contains_teams"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/has_coach"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/has_player"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/has_referee"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/participates_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/plays_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/refereed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/between_teams"/>
+        <ObjectProperty IRI="/competes_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/coaches_in"/>
+        <ObjectProperty IRI="/has_coach"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/contains_teams"/>
+        <ObjectProperty IRI="/participates_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/has_player"/>
+        <ObjectProperty IRI="/plays_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/has_referee"/>
+        <ObjectProperty IRI="/refereed"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/between_teams"/>
+        <Class IRI="/Match"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/coaches_in"/>
+        <Class IRI="/Coach"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/competes_in"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/contains_teams"/>
+        <Class IRI="/Championship"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_coach"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_player"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/has_referee"/>
+        <Class IRI="/Match"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/participates_in"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/plays_in"/>
+        <Class IRI="/Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/refereed"/>
+        <Class IRI="/Referee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/between_teams"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/coaches_in"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/competes_in"/>
+        <Class IRI="/Match"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/contains_teams"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_coach"/>
+        <Class IRI="/Coach"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_player"/>
+        <Class IRI="/Player"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/has_referee"/>
+        <Class IRI="/Referee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/participates_in"/>
+        <Class IRI="/Championship"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/plays_in"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/refereed"/>
+        <Class IRI="/Match"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/championship_country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/championship_name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/championship_type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/championship_year"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/match_date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/match_location"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/match_result"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/match_title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/person_age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/person_gender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/person_name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/person_nationality"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/team_country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/team_name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="/championship_country"/>
+        <Class IRI="/Championship"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/championship_name"/>
+        <Class IRI="/Championship"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/championship_type"/>
+        <Class IRI="/Championship"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/championship_year"/>
+        <Class IRI="/Championship"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/match_date"/>
+        <Class IRI="/Match"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/match_location"/>
+        <Class IRI="/Match"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/match_result"/>
+        <Class IRI="/Match"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/match_title"/>
+        <Class IRI="/Match"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/person_age"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/person_gender"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/person_name"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/person_nationality"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/team_country"/>
+        <Class IRI="/Team"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/team_name"/>
+        <Class IRI="/Team"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/championship_country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/championship_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/championship_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/championship_year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/match_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/match_location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/match_result"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/match_title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/person_age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/person_gender"/>
+        <DataOneOf>
+            <Literal>Female</Literal>
+            <Literal>Male</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/person_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/person_nationality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/team_country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/team_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
