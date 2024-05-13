@@ -18,10 +18,11 @@ public class Jena3 {
         this.namespace = model.getNsPrefixURI("");
 	}
 	
-	public void readPlayers(){
+	public void readCoaches(){
 		Model ourmodel = JenaEngine.readInferencedModelFromRuleFile(model,"data/jena3_rule.txt");
-		Property pname = model.getProperty(namespace + "person_name");
-		ResIterator iter =ourmodel.listResourcesWithProperty(pname);
+		Property rdfType = ourmodel.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#", "type");
+		Resource A = ourmodel.getResource(namespace+'A');
+		ResIterator iter =ourmodel.listResourcesWithProperty(rdfType,A);
 		for (; iter.hasNext();) {
 			Resource i = iter.next();
 			JenaEngine.readRsDataType(ourmodel, namespace, i, "person_name");
