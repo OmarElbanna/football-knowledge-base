@@ -449,7 +449,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football#Frank_Lampard">
         <rdf:type rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Coach"/>
         <coaches_in rdf:resource="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Everton"/>
-        <person_age>50</person_age>
+        <person_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</person_age>
         <person_gender>Male</person_gender>
         <person_name>Frank Lampard</person_name>
         <person_nationality>English</person_nationality>
