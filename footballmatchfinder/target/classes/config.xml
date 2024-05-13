@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PizzaFinderPrefs>
+	<OntologyFileLocation path="/Volumes/D/Uni/Semester 10/CSE488 Ontologies &amp; Web Semantics/footballmatchfinder/src/main/resources/football.rdf"/>
+	<RootClass name="http://www.w3.org/2002/07/owl#Thing"/>
+	<TeamClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Team"/>
+	<ChampionshipClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Championship"/>
+	<CoachClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Coach"/>
+	<MatchClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Match"/>
+	<PersonClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Person"/>
+	<PlayerClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Player"/>
+	<RefereeClass name="http://www.semanticweb.org/omarelbanna/ontologies/2024/3/football/Referee"/>
+    <Language name="en"/>
+</PizzaFinderPrefs>
